@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Actualité</title>
+  <link rel="stylesheet" href="">
+</head>
+<body>
+  <header>    
+    <h2 class="reserve">Bienvenue sur notre site de gestion de Bibliothéque</h2>
+    <nav class="navigation">
+      <ul>
+      <li><a href="actualité.html">Actualités</a></li>
+     <li><a href="Evement.html">Evenement</a></li> 
+     <li class="has-nav">
+      <a href="livre.html"> livres</a>
+    <ul class="sous-nav">
+      <li><a href="Roman-policier.html">Roman policier</a> </li>
+      <li><a href="Roman-d'aventure.html">Roman d’aventures</a> </li>
+      <li><a href="Roman-d'amour.html">Roman d'amour</a> </li>
+      <li><a href="Roman-philosophique.html">Roman philosophique</a> </li>
+      <li><a href="Roman-d'horreur.html"> Roman d’horreur</a> </li>
+  
+    </ul>
+    </li> 
+     <li><a href="A propos.html">A propos</a></li> 
+    </ul>
+  
+      </nav>
+      
+  </header>
+  <section>
+    <main><br><br><br><br><br><br><br><br><br><br><br><br>
+      <img src="101.jpg" alt="">
+      <h1 style="color: blueviolet;">Hanging Plants : La Livraison de fleurs</h1>
+      <p>Un DJ,une danseuse aérienne,une acrobate au cerveau, un circacien en roue cyr <br>
+      et une danseuse se retrouvent pour vous faire rever le lien entre fleurs et musique...</p><br>
+
+      <hr>
+      <img src="102.jpg" alt="">
+      <p><b>Second tour de la confrontation argumentée </b>du DERE talk <br>
+        2 décembre à 19h00</p>
+        <hr>
+        <center><img src="103.jpg" alt=""></center>
+        <p><b>Présentation et dédicace du Fils du Maitre </b>de Mohamed Ali Chehem. <br>
+          3 décembre à 19h30</p>
+          <hr>
+          <center><img src="104.jpg" alt=""></center><br>
+          <b>Conférence : Traduction et Tradition</b>
+          <p>Cette conférence, animée par Idriss Elmi réunira un créateur de dictionnaire <br>
+          français-afar,une éditrice d'abécédaire multilingue,une traductrice de chants <br>
+        traditionnels et une de contes pour vous faire découvrir les subtilités de la <br>
+      traduction et ses raisonsd'etre.</p>
+      <br><br><br>
+    </main>
+  </section>
+
+  <footer>&copy; 2023 Ma Bibliothéque. Tous droits réservés.
+    <table width="1000px" cellpadding="10px">
+     
+      <tr>
+        <td><img src="email.png"width=30px align="TOP">info@institutfrancais-djibouti.com</td>
+        <td><img src="tele.jpg"width=20px align="TOP">tel:Pour joindre  - Administration :  (+253) 77163952</td>
+      </tr>
+    </table>
+  </footer>
+ <style>
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+   background: white;
+    background-size: cover;
+    background-position: center;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: space-between;
+    text-align: center;
+    background:rgb(31, 29, 21);
+    
+}
+.sous-nav{
+          list-style: none;
+        display: none;
+        }
+        
+        .navigation a {
+            position: relative;
+            font-size: 1.1em;
+            color: #fff;
+            text-decoration: none;
+            font-weight: 500;
+            margin-left: 40px;
+            
+        }
+        .navigation > ul{
+          display: flex;
+          list-style: none;
+        
+        }
+        .navigation li a{
+          text-decoration: none;
+          display: block;
+          padding: 20px;
+        }
+        .has-nav:hover .sous-nav{
+          display: block;
+        }
+.navigation a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: #fff;
+    border-radius: 5px;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .5s;
+}
+.navigation a:hover::after {
+    transform: scaleX(1);
+    transform-origin: right;
+
+}
+.reserve {
+    font-size: 2em;
+    color: #fff;
+    user-select: none;
+    font-family: Algerian, sans-serif;
+}
+/* Pied de page */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 0.1rem;
+    position: fixed;
+    bottom: 0;
+  
+    right: 0;
+    left: 0;
+
+  }
+  </style>
+
+</body>
+</html>
